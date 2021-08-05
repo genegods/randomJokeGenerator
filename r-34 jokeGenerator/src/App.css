@@ -1,0 +1,67 @@
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #d1d1d1;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card-header{
+    background: linear-gradient(to bottom, #44c767, #5cbf28);
+}
+.card-header h6{
+    color: whitesmoke;
+    font-size: 30px;
+
+}
+.jokeContainer{
+    min-width: 500px;
+    min-height: 200px;
+}
+.articleContainer{
+    max-width: 500px;
+    min-height: 100px;
+    margin: 20px;
+    color: rgb(6,6,158);
+    font-size: 25px;
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001,
+    inset 0px 0px 0px 0px #fff9,
+    inset 0px 0px 0px 0px #0001,
+    inset 0px 0px 0px 0px #fff9,  
+    inset 0px 0px 0px 0px #0001;
+}
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnContainer{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+.btnContainer .btns{
+    background: linear-gradient(to bottom, #44c767, #5cbf28);
+   color: whitesmoke;
+   font-size: 20px;
+   padding: 7px 20px;
+   border: none;
+   border-radius: 15px;
+   outline: none;
+   border: none;
+}
+
+.spinnerContainer{
+    width: 400px;
+    height: 100px;
+}
+.spinnerContainer img{
+    width: 100px;
+    height: 100px;
+}
+
